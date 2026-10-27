@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Diva AI",
+    "slug": "aayush-tripathi",
+    "version": "1.0.0",
+    "owner": "aayushtr00s-team",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aayush.miraai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0C"
+      },
+      "package": "com.aayush.miraai"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee4e4f5b-26e6-483b-a8a9-b157bb933ab1"
+      }
+    },
+    "cli": {
+      "appVersionSource": "remote"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "miraai"
+  }
+}
