@@ -34,6 +34,6 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "miraai"
+    "scheme": "divaai"
   }
 }
